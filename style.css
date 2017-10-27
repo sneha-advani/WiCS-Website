@@ -19,7 +19,7 @@ body {
     -o-background-size: cover;
 }
 
-.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #F63744;
     background-color: #F6F6F6;
 }
@@ -28,7 +28,7 @@ body {
     color: #F63744;
 }
 
-.navbar-nav li a {
+.navbar-default .navbar-nav li a {
     color: black;
 }
 
