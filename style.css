@@ -10,6 +10,7 @@ body {
 
 #header {
     height: 100vh;
+    margin: -20px 0px 0px 0px;
     background: url(wicslogo.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -28,6 +29,7 @@ body {
 
 .navbar-default .navbar-nav li a {
     color: black;
+    background-color: #F6F6F6;
 }
 
 .navbar-brand {
