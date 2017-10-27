@@ -9,8 +9,14 @@ body {
 }
 
 #header {
+    display: table;
+    position: relative;
     height: 100vh;
     background: url(wicslogo.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
