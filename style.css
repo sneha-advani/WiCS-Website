@@ -9,8 +9,6 @@ body {
 }
 
 #header {
-    display: table;
-    position: relative;
     height: 100vh;
     background: url(wicslogo.png) no-repeat center center scroll;
     -webkit-background-size: cover;
