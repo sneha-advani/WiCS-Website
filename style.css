@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+    
+body {
+    background-color: #F6F6F6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15pt;
+    color: #7B7B7B;
+}
+
+#header {
+    display: table;
+    position: relative;
+    height: 100vh;
+    background: url(wicslogo.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: #F63744;
+    background-color: #F6F6F6;
+}
+
+#current {
+    color: #F63744;
+}
+
+.navbar-nav li a {
+    color: black;
+}
+
+.navbar-brand {
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.navbar-brand>img {
+    width: 100px;
+    margin: -10px 0px 0px 0px;
+}
+
+h1 {
+    font-size: 40pt;
+    color: #F63744;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #F63744;
+}
+
+h3 {
+    text-align: center;
+}
+
+.company-logo {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+
+}
+
+
