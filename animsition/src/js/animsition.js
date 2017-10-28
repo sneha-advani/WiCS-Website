@@ -9,10 +9,6 @@
   }
 }(function ($) {
   'use strict';
-  var windowLoaded = false;
-  $(window).on("load", function() {
-    windowLoaded = true;
-  });
   var namespace = 'animsition';
   var __ = {
     init: function(options){
@@ -98,15 +94,10 @@
           if(options.timeout) __.addTimer.call(_this);
 
           if(options.onLoadEvent) {
-            if(!windowLoaded) {
-              $window.on('load.' + namespace, function() {
-                if(__.settings.timer) clearTimeout(__.settings.timer);
-                __.in.call(_this);
-              });
-            } else {
+            $window.on('load.' + namespace, function() {
               if(__.settings.timer) clearTimeout(__.settings.timer);
-                __.in.call(_this);
-            }
+              __.in.call(_this);
+            });
           }
 
           $window.on('pageshow.' + namespace, function(event) {
