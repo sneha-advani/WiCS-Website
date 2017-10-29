@@ -15,8 +15,8 @@
       options = $.extend({
         inClass               :   'fade-in',
         outClass              :   'fade-out',
-        inDuration            :    300,
-        outDuration           :    200,
+        inDuration            :    1500,
+        outDuration           :    800,
         linkElement           :   '.animsition-link',
         // e.g. linkElement   :   'a:not([target="_blank"]):not([href^="#"])'
         loading               :    true,

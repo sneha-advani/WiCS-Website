@@ -28,7 +28,7 @@ body {
 }
 
 .navbar-default .navbar-nav li a {
-    color: black;
+    color: #7B7B7B;
     background-color: #F6F6F6;
 }
 
@@ -72,4 +72,8 @@ h3 {
     height: 100px;
 }
 
-
+.program-image {
+    display: block;
+    height: 300px;
+    margin: 10px;
+}
