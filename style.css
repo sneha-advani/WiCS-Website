@@ -19,12 +19,12 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #F63744;
+    color: #FC3744;
     background-color: #F6F6F6;
 }
 
 #current {
-    color: #F63744;
+    color: #FC3744;
 }
 
 .navbar-default .navbar-nav li a {
@@ -48,13 +48,13 @@ body {
 
 h1 {
     font-size: 40pt;
-    color: #F63744;
+    color: #FC3744;
     font-weight: bold;
     text-align: center;
 }
 
 h2 {
-    color: #F63744;
+    color: #FC3744;
     font-weight: bold;
 }
 
@@ -70,10 +70,4 @@ h3 {
     display: inline-block;
     margin: 5px;
     height: 100px;
-}
-
-.program-image {
-    display: block;
-    height: 300px;
-    margin: 10px;
 }
